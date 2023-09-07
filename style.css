@@ -1,0 +1,41 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    margin-top: 0%;
+    font-size: 30px;
+    border-radius: 0px;
+}
+
+.note {
+    margin-top: 0%;
+    width: 100%;
+    color: rgb(74, 74, 74);
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+.startbtn, #nameinput {
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#status {
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgba(99, 99, 255, 0.616);
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+canvas {
+    border: 2px solid rgb(56, 52, 157);
+    border-radius: 100px;
+    margin-top: 240px;
+    box-shadow: 5px 5px 5px rgb(56, 52, 157);
+}
