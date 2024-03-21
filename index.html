@@ -15,7 +15,7 @@
 
     <body background="backing.avif">
         <center>
-            <h1 class="heading btn btn-primary">AI Object Finder</h1>
+            <h1 class="heading btn btn-primary">AI Object Finder</h1><br>
             <h2 class="note btn btn-warning">Enter the name of the object you want to find. It should match the names present in the Cocossd model, then only the model can detect it.</h2>
             <br><br>
             <input id="nameinput">
@@ -23,6 +23,7 @@
             <button onclick="start()" id="start" class="btn btn-danger startbtn">Start</button>
             <br><br>
             <h1 id="status">Status : </h1>
+            <div id="canvas"></div>
 
         </center>
         <script src="main.js"></script>
